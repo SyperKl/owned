@@ -59,6 +59,5 @@ export const useCartStore = defineStore('cart', {
         0
       );
     }
-  },
-  
+  }
 });

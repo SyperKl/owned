@@ -19,7 +19,7 @@
 </template>
 
 <script setup lang="ts">
-import { Product } from '~/types/product';
+import type { Product } from '~/types/product';
 import { useCartStore } from '~/stores/cart';
 
 const props = defineProps<{
